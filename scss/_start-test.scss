@@ -1,0 +1,58 @@
+.start-test {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  line-height: 1.33;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &-titel {
+    font-size: 24px;
+  }
+}
+
+.start-test-bottom-text {
+  font-size: 20px;
+  line-height: 1.14;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 32px;
+  margin-top: 16px;
+}
+
+.start-test-wrap {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  @include mob {
+    display: none;
+  }
+}
+
+.start-test-button {
+  padding: 8px 18px;
+  min-height: 48px;
+}
+
+.start-test-hint {
+  font-size: 12px;
+  line-height: 1.33;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 18px;
+  left: 65%;
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.start-test-hint strong {
+  margin-left: 3px;
+}
+
+.start-test-button-mob {
+  padding: 8px 18px;
+  min-height: 48px;
+}

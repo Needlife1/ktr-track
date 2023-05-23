@@ -38,15 +38,16 @@
     <link href="/test/to/iPQrqdiz" rel="canonical">
     <link href="/test/oembed?url=https%3A%2F%2Fktr-track.online/test%2Fto%2FiPQrqdiz" rel="alternate"
         title="Quick quiz to start" type="application/json+oembed">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
 
 
+
     <main>
 
-        <div class="start-test visually-hidden">
+        <div class="start-test ">
             <h1 class="start-test-titel">FREE PERSONALITY TEST</h1>
             <p class="start-test-top-text">Complete the Test<br>Be yourself and answer honestly to find out your
                 personality type.<br>
@@ -55,12 +56,18 @@
                 Premium <br> Profile.
             </p>
             <p class="start-test-bottom-text">Takes less 1 min</p>
-            <button class="start-test-button">Start</button>
+
+            <div class="start-test-wrap">
+                <button class="start-test-button btn" type="button">Start</button>
+                <div class="start-test-hint">press<strong>Enter ↵</strong></div>
+            </div>
+
+            <button class="start-test-button-mob btn" type="button">Start</button>
         </div>
 
 
 
-        <div class="question">
+        <div class="question visually-hidden">
             <div class="question-symbol-position">
                 <p class="question-text">You regularly make new friends. *</p>
 
@@ -73,20 +80,20 @@
 
             <div class="question-cover-radio">
 
-                <div class="question-radio-top">
+                <div class="question-radio">
                     <span class="question-letter">A</span>
                     <p class="question-radio-text">Agree</p>
                 </div>
 
 
-                <div class="question-radio-bottom">
+                <div class="question-radio">
                     <span class="question-letter">B</span>
                     <p class="question-radio-text">Disagree</p>
                 </div>
 
             </div>
 
-            <button class="question-buttom" type="button">OK<svg width="13" height="16">
+            <button class="question-btn btn" type="button">OK<svg width="13" height="16">
                     <path d="M14.293.293l1.414 1.414L5 12.414.293 7.707l1.414-1.414L5 9.586z"></path>
                 </svg></button>
         </div>
@@ -107,20 +114,20 @@
 
             <div class="question-cover-radio">
 
-                <div class="question-radio-top">
+                <div class="question-radio">
                     <span class="question-letter">A</span>
                     <p class="first-question-radio-text">Agree</p>
                 </div>
 
 
-                <div class="question-radio-bottom">
+                <div class="question-radio">
                     <span class="question-letter">B</span>
                     <p class="question-radio-text">Disagree</p>
                 </div>
 
             </div>
 
-            <button class="question-buttom" type="button">OK<svg width="13" height="16">
+            <button class="question-btn btn" type="button">OK<svg width="13" height="16">
                     <path d="M14.293.293l1.414 1.414L5 12.414.293 7.707l1.414-1.414L5 9.586z"></path>
                 </svg></button>
         </div>
@@ -140,20 +147,20 @@
 
             <div class="question-cover-radio">
 
-                <div class="question-radio-top">
+                <div class="question-radio">
                     <span class="question-letter">A</span>
                     <p class="first-question-radio-text">Agree</p>
                 </div>
 
 
-                <div class="question-radio-bottom">
+                <div class="question-radio">
                     <span class="question-letter">B</span>
                     <p class="question-radio-text">Disagree</p>
                 </div>
 
             </div>
 
-            <button class="question-buttom" type="button">OK<svg width="13" height="16">
+            <button class="question-btn btn" type="button">OK<svg width="13" height="16">
                     <path d="M14.293.293l1.414 1.414L5 12.414.293 7.707l1.414-1.414L5 9.586z"></path>
                 </svg></button>
         </div>
@@ -171,20 +178,20 @@
 
             <div class="question-cover-radio">
 
-                <div class="question-radio-top">
+                <div class="question-radio">
                     <span class="question-letter">A</span>
                     <p class="first-question-radio-text">Agree</p>
                 </div>
 
 
-                <div class="question-radio-bottom">
+                <div class="question-radio">
                     <span class="question-letter">B</span>
                     <p class="question-radio-text">Disagree</p>
                 </div>
 
             </div>
 
-            <button class="question-buttom" type="button">OK<svg width="13" height="16">
+            <button class="question-btn btn" type="button">OK<svg width="13" height="16">
                     <path d="M14.293.293l1.414 1.414L5 12.414.293 7.707l1.414-1.414L5 9.586z"></path>
                 </svg></button>
         </div>
@@ -193,14 +200,23 @@
 
 
     </main>
-    <!-- 
-        <footer>
-            <div class="cover-footer">
-                <button><svg width="14" height="9"></svg></button>
-                <button><svg width="14" height="9"></svg></button>
-                <a href="">Powered by<strong>Typeform</strong></a>
+
+    <footer>
+        <div class="footer-cover">
+            <div class="footer-cover-btn">
+                <button class="footer-button left-btn btn"><svg width="14" height="9">
+                        <path d="M11.996 8.121l1.414-1.414L6.705 0 0 6.707l1.414 1.414 5.291-5.293z"></path>
+                    </svg></button>
+                <button class="footer-button right-btn btn"><svg width="14" height="9">
+                        <path d="M12.293.293l1.414 1.414L7 8.414.293 1.707 1.707.293 7 5.586z"></path>
+                    </svg></button>
             </div>
-        </footer> -->
+            <a class="footer-link link"
+                href="https://www.typeform.com/explore/?utm_campaign=fs5exQhT&utm_source=typeform.com-16357323-business&utm_medium=typeform&utm_content=typeform-footer&utm_term=EN">Powered
+                by<strong>Typeform</strong></a>
+        </div>
+    </footer>
+
 
 
 </body>
